@@ -1,8 +1,24 @@
 {
   "name": "frostline",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "imports": {
+    "#src/*": "./src/*"
+  },
+  "description": "Design system",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-suarez/Frostline.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Sebastian Suarez <6.oceanic-curlers@icloud.com> (https://www.sebastiansuarez.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastian-suarez/Frostline/issues"
+  },
+  "homepage": "https://github.com/sebastian-suarez/Frostline#readme",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
